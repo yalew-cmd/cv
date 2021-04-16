@@ -1,50 +1,160 @@
-/*************** TAG SELECTORS *****************/
-
+/****************** TAG SELECTORS *****************/
 body {
-  background-color: #f4f9f9;
-  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
 }
 
 h1 {
-  margin-bottom: 70px;
-}
-
-h1, h3 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
   color: #66BFBF;
 }
 
-img {
-  border-radius: 100%;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
-img:hover {
-  background-color: #ffd384;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  width: 4%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 8px;
+  border-color: #EAF6F6;
+  margin: 50px auto;
 }
 
 p {
   line-height: 2;
 }
 
-li {
-  line-height: 2;
+/****************** CLASS SELECTORS *****************/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
 }
 
-/*************** CLASS SELECTORS *****************/
-
-.education-table tr td, .extacullicar-activities tr td {
-  vertical-align: top;
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
 }
 
-.education-table tr .education-year, .extacullicar-activities tr .extacullicar-year {
-  width: 150px;
+.footer-link {
+  margin: 20px;
+  font-size: 16px;
+  text-decoration: none;
 }
 
-.heading-one {
-  color: #5eaaa8;
+.footer-link:hover {
+  color: #EAF6F6;
 }
 
-.reference-ul {
-  margin: 0;
+.copy-right {
+  margin-bottom: 0;
+  color: #EAF6F6;
+  font-size: 16px;
 }
 
-/*************** ID SELECTORS *****************/
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.profile {
+  margin-top: 100px;
+}
+
+.skills {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.skill-row{
+  text-align: left;
+}
+
+.comp-img {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-desc {
+  color: #40514E;
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.BUTTON_SSF {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 141px;
+   font-size: 18px;
+   font-weight: 100;
+   padding: 11px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 50px 0;
+}
+
+.BUTTON_SSF:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
