@@ -1,0 +1,50 @@
+/*************** TAG SELECTORS *****************/
+
+body {
+  background-color: #f4f9f9;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 70px;
+}
+
+h1, h3 {
+  color: #66BFBF;
+}
+
+img {
+  border-radius: 100%;
+}
+
+img:hover {
+  background-color: #ffd384;
+}
+
+p {
+  line-height: 2;
+}
+
+li {
+  line-height: 2;
+}
+
+/*************** CLASS SELECTORS *****************/
+
+.education-table tr td, .extacullicar-activities tr td {
+  vertical-align: top;
+}
+
+.education-table tr .education-year, .extacullicar-activities tr .extacullicar-year {
+  width: 150px;
+}
+
+.heading-one {
+  color: #5eaaa8;
+}
+
+.reference-ul {
+  margin: 0;
+}
+
+/*************** ID SELECTORS *****************/
